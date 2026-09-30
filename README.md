@@ -1,2 +1,5 @@
 # spoty-clone
 Proyecto para tecnologías en internet - B
+emprendimiento-- “FLUTTERH₂O: RIEGO URBANO INTELIGENTE QUE
+TRANSFORMA CIUDADES CON CONTROL TOTAL DESDE TU 
+APLICACIÓN MÓVIL, SIN FRONTERAS”
