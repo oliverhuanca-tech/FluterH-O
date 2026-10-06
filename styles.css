@@ -127,3 +127,19 @@ nav a:hover {
     color: #FFFFFF;
     text-decoration: none;
 }
+
+.volver {
+    color: #2F80ED;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.volver:hover {
+    color: #1F6F43;
+    text-decoration: underline;
+}
+
+button:hover {
+    background-color: #2F80ED;
+    cursor: pointer;
+}
