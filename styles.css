@@ -5,3 +5,9 @@ body {
     line-height: 1.5;
     margin: 0;
 }
+
+header {
+    background-color: #1F6F43;
+    color: #FFFFFF;
+    padding: 20px;
+}
