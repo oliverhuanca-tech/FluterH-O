@@ -55,6 +55,9 @@ article {
     margin-top: 15px;
     border-left: 4px solid #2F80ED;
     border-radius: 6px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 figure {
