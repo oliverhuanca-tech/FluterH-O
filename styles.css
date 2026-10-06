@@ -101,3 +101,11 @@ button {
     border: none;
     border-radius: 5px;
 }
+
+footer {
+    background-color: #24312B;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
