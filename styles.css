@@ -109,3 +109,8 @@ footer {
     padding: 15px;
     margin-top: 20px;
 }
+
+nav a:hover {
+    color: #D9F0FF;
+    text-decoration: underline;
+}
