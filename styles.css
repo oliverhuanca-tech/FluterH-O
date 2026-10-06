@@ -56,3 +56,19 @@ article {
     border-left: 4px solid #2F80ED;
     border-radius: 6px;
 }
+
+figure {
+    margin: 15px 0;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+figcaption {
+    margin-top: 5px;
+    color: #24312B;
+    font-size: 14px;
+}
