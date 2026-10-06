@@ -114,3 +114,16 @@ nav a:hover {
     color: #D9F0FF;
     text-decoration: underline;
 }
+/* login.html */
+.login {
+    background-color: #2F80ED;
+    color: #FFFFFF;
+    padding: 8px 14px;
+    border-radius: 5px;
+}
+
+.login:hover {
+    background-color: #1F6F43;
+    color: #FFFFFF;
+    text-decoration: none;
+}
