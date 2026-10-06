@@ -143,3 +143,17 @@ button:hover {
     background-color: #2F80ED;
     cursor: pointer;
 }
+
+address {
+    background-color: #D9F0FF;
+    padding: 15px;
+    border-left: 4px solid #2F80ED;
+    border-radius: 6px;
+    font-style: normal;
+}
+
+main {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
