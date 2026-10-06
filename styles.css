@@ -48,3 +48,11 @@ h2 {
 h3 {
     color: #2F80ED;
 }
+
+article {
+    background-color: #D9F0FF;
+    padding: 15px;
+    margin-top: 15px;
+    border-left: 4px solid #2F80ED;
+    border-radius: 6px;
+}
