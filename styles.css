@@ -16,6 +16,10 @@ nav ul {
     list-style: none;
     padding: 0;
     margin: 10px 0 0 0;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 nav li {
