@@ -1,0 +1,36 @@
+/* LOGIN */
+
+/* .login selecciona cualquier elemento HTML que tenga class="login" */
+.login {
+
+    /* background-color cambia el color de fondo del elemento.
+       #2F80ED es un código hexadecimal que representa un color azul. */
+    background-color: #2F80ED;
+
+    /* color cambia el color del texto.
+       #FFFFFF representa el color blanco. */
+    color: #FFFFFF;
+
+    /* padding crea espacio dentro del elemento.
+       8px = espacio arriba y abajo.
+       14px = espacio a la izquierda y derecha. */
+    padding: 8px 14px;
+
+    /* border-radius redondea las esquinas.
+       5px indica cuánto se redondean. */
+    border-radius: 5px;
+}
+
+/* :hover aplica un estilo cuando pasamos el mouse sobre el elemento */
+.login:hover {
+
+    /* Cambia el fondo de azul a verde al pasar el mouse.
+       #1F6F43 es el verde principal de FlutterH2O. */
+    background-color: #1F6F43;
+
+    /* Mantiene el texto en color blanco. */
+    color: #FFFFFF;
+
+    /* Quita el subrayado del enlace. */
+    text-decoration: none;
+}
