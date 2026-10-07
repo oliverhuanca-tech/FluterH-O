@@ -154,6 +154,8 @@ address {
     border-left: 4px solid #2F80ED;
     border-radius: 6px;
     font-style: normal;
+    max-width: 700px;
+    margin: 15px auto;
 }
 
 main {
