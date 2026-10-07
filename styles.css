@@ -171,3 +171,13 @@ main {
     margin: auto;
     padding: 20px;
 }
+
+.tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.tarjetas article {
+    flex: 1 1 40%;
+}
