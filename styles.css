@@ -217,3 +217,8 @@ main {
         max-width: 100%;
     }
 }
+
+.oscuro {
+    background-color: #121212;
+    color: #F5F7F6;
+}
