@@ -253,4 +253,13 @@ main {
     color: #F8FAFC;
 }
 
+.oscuro label {
+    color: #F8FAFC;
+}
 
+.oscuro input,
+.oscuro select,
+.oscuro textarea {
+    color: #24312B;
+    background-color: #FFFFFF;
+}
