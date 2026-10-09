@@ -219,6 +219,38 @@ main {
 }
 
 .oscuro {
-    background-color: #121212;
-    color: #F5F7F6;
+    background-color: #0F172A;
+    color: #E5E7EB;
 }
+
+.oscuro section {
+    background-color: #1E293B;
+    color: #E5E7EB;
+}
+
+.oscuro article {
+    background-color: #243447;
+    color: #F8FAFC;
+    border-left-color: #38BDF8;
+}
+
+.oscuro address {
+    background-color: #243447;
+    color: #F8FAFC;
+    border-left-color: #38BDF8;
+}
+
+.oscuro h2 {
+    color: #86EFAC;
+}
+
+.oscuro h3 {
+    color: #7DD3FC;
+}
+
+.oscuro footer {
+    background-color: #020617;
+    color: #F8FAFC;
+}
+
+
