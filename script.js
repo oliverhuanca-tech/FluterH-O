@@ -9,3 +9,10 @@ botonTema.addEventListener("click", function () {
     botonTema.textContent = "🌙 Modo oscuro";
   }
 });
+
+const botonMenu = document.querySelector("#btn-menu");
+const listaMenu = document.querySelector("nav ul");
+
+botonMenu.addEventListener("click", function () {
+  listaMenu.classList.toggle("menu-abierto");
+});
