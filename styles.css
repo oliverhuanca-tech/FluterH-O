@@ -224,6 +224,10 @@ main {
   background-color: #ffffff;
 }
 
+.hamburguesa {
+  display: none;
+}
+
 @media (max-width: 600px) {
   nav {
     width: 100%;
@@ -258,5 +262,7 @@ main {
   textarea {
     max-width: 100%;
   }
+  .hamburguesa {
+    display: block;
+  }
 }
-
