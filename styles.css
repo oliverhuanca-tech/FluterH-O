@@ -104,7 +104,7 @@ textarea {
 }
 
 button {
-  background-color: #1f6f43;
+  background-color: #2a9d8f;
   color: #ffffff;
   padding: 10px 18px;
   border: none;
@@ -149,7 +149,7 @@ nav a:hover {
 }
 
 button:hover {
-  background-color: #2a9d8f;
+  background-color: #21867a;
   cursor: pointer;
 }
 
