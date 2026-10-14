@@ -16,3 +16,30 @@ const listaMenu = document.querySelector("nav ul");
 botonMenu.addEventListener("click", function () {
   listaMenu.classList.toggle("menu-abierto");
 });
+
+const formularioContacto = document.querySelector("#form-contacto");
+const avisoContacto = document.querySelector("#aviso-contacto");
+
+function revisarFormulario(event) {
+  event.preventDefault();
+
+  const nombre = document.querySelector("#nombre").value;
+  const correo = document.querySelector("#correo").value;
+
+  if (nombre === "") {
+    avisoContacto.textContent = "Por favor, escribe tu nombre.";
+    avisoContacto.classList.add("error");
+    avisoContacto.classList.remove("exito");
+  } else if (correo.includes("@") === false) {
+    avisoContacto.textContent = "Por favor, escribe un correo valido.";
+    avisoContacto.classList.add("error");
+    avisoContacto.classList.remove("exito");
+  } else {
+    avisoContacto.textContent =
+      "Consulta recibida. Pronto nos comunicaremos contigo.";
+    avisoContacto.classList.add("exito");
+    avisoContacto.classList.remove("error");
+  }
+}
+
+formularioContacto.addEventListener("submit", revisarFormulario);
