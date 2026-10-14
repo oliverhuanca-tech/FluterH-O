@@ -224,6 +224,29 @@ main {
   background-color: #ffffff;
 }
 
+.aviso {
+  display: none;
+  margin-top: 14px;
+  padding: 10px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.aviso.error {
+  display: block;
+  color: #b3261e;
+  background-color: #fdecea;
+  border: 1px solid #b3261e;
+}
+
+.aviso.exito {
+  display: block;
+  color: #1f6f43;
+  background-color: #e8f5ee;
+  border: 1px solid #2a9d8f;
+}
+
+
 .hamburguesa {
   display: none;
   margin: 10px auto;
