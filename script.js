@@ -25,6 +25,7 @@ function revisarFormulario(event) {
 
   const nombre = document.querySelector("#nombre").value;
   const correo = document.querySelector("#correo").value;
+  const celular = document.querySelector("#celular").value;
 
   if (nombre === "") {
     avisoContacto.textContent = "Por favor, escribe tu nombre.";
@@ -32,6 +33,11 @@ function revisarFormulario(event) {
     avisoContacto.classList.remove("exito");
   } else if (correo.includes("@") === false) {
     avisoContacto.textContent = "Por favor, escribe un correo valido.";
+    avisoContacto.classList.add("error");
+    avisoContacto.classList.remove("exito");
+  } else if (/^[567]\d{7}$/.test(celular) === false) {
+    avisoContacto.textContent =
+      "El celular debe tener 8 números y comenzar en 5, 6 o 7.";
     avisoContacto.classList.add("error");
     avisoContacto.classList.remove("exito");
   } else {
