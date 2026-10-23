@@ -1,0 +1,296 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background-color: #f5f7f6;
+  color: #24312b;
+  line-height: 1.5;
+  margin: 0;
+}
+
+header {
+  background-color: #1f6f43;
+  color: #ffffff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav a {
+  display: inline-block;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 6px 8px;
+}
+
+section {
+  background-color: #ffffff;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+h2 {
+  color: #1f6f43;
+}
+
+h3 {
+  color: #2f80ed;
+}
+
+article {
+  background-color: #d9f0ff;
+  padding: 15px;
+  margin-top: 15px;
+  border-left: 4px solid #2f80ed;
+  border-radius: 6px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figure {
+  margin: 15px 0;
+  text-align: center;
+}
+
+figure img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+figcaption {
+  margin-top: 5px;
+  color: #24312b;
+  font-size: 14px;
+}
+
+form {
+  max-width: 650px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+label {
+  font-weight: bold;
+  color: #24312b;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  max-width: 500px;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #a7d7b8;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 12px;
+}
+
+button {
+  background-color: #2a9d8f;
+  color: #ffffff;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #24312b;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+nav a:hover {
+  color: #d9f0ff;
+  text-decoration: underline;
+}
+/* login.html */
+.login {
+  background-color: #2f80ed;
+  color: #ffffff;
+  padding: 8px 14px;
+  border-radius: 5px;
+}
+
+.login:hover {
+  background-color: #1f6f43;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.volver {
+  color: #2f80ed;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.volver:hover {
+  color: #1f6f43;
+  text-decoration: underline;
+}
+
+button:hover {
+  background-color: #21867a;
+  cursor: pointer;
+}
+
+address {
+  background-color: #d9f0ff;
+  padding: 15px;
+  border-left: 4px solid #2f80ed;
+  border-radius: 6px;
+  font-style: normal;
+  max-width: 700px;
+  margin: 15px auto;
+}
+
+main {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+.tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.tarjetas article {
+  flex: 1 1 40%;
+}
+.oscuro {
+  background-color: #0f172a;
+  color: #e5e7eb;
+}
+
+.oscuro section {
+  background-color: #1e293b;
+  color: #e5e7eb;
+}
+
+.oscuro article {
+  background-color: #243447;
+  color: #f8fafc;
+  border-left-color: #38bdf8;
+}
+
+.oscuro address {
+  background-color: #243447;
+  color: #f8fafc;
+  border-left-color: #38bdf8;
+}
+
+.oscuro h2 {
+  color: #86efac;
+}
+
+.oscuro h3 {
+  color: #7dd3fc;
+}
+
+.oscuro footer {
+  background-color: #020617;
+  color: #f8fafc;
+}
+
+.oscuro label {
+  color: #f8fafc;
+}
+
+.oscuro input,
+.oscuro select,
+.oscuro textarea {
+  color: #24312b;
+  background-color: #ffffff;
+}
+
+.aviso {
+  display: none;
+  margin-top: 14px;
+  padding: 10px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.aviso.error {
+  display: block;
+  color: #b3261e;
+  background-color: #fdecea;
+  border: 1px solid #b3261e;
+}
+
+.aviso.exito {
+  display: block;
+  color: #1f6f43;
+  background-color: #e8f5ee;
+  border: 1px solid #2a9d8f;
+}
+
+
+.hamburguesa {
+  display: none;
+  margin: 10px auto;
+}
+
+@media (max-width: 600px) {
+  nav {
+    width: 100%;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    width: 100%;
+  }
+
+  main {
+    padding: 12px;
+  }
+
+  section {
+    margin: 10px 0;
+    padding: 16px;
+  }
+
+  .tarjetas {
+    flex-direction: column;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  input,
+  select,
+  textarea {
+    max-width: 100%;
+  }
+  .hamburguesa {
+    display: block;
+  }
+  nav ul.menu-abierto {
+    display: flex;
+  }
+}
